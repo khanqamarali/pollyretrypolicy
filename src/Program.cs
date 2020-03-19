@@ -11,8 +11,9 @@ namespace PollyRetryConsoleApp
 
             var badurl = "https://jsonplaceholder.typicode2.com/todos/1";
             var url = "https://jsonplaceholder.typicode.com/todos/1";
-            await new RetryPolicy().retryPolicy(badurl);
-            await new waitAndRetryPolicy().WaitAndRetry(badurl);
+            //await new RetryPolicy().retryPolicy(badurl); // rety without wait
+            await new waitAndRetryPolicy().WaitAndRetry(badurl); // rety with wait time
+            Console.ReadLine();
 
         }
 
