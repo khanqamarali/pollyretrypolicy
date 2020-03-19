@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyRetryConsoleApp", "src\PollyRetryConsoleApp.csproj", "{1CC5AF4F-E63F-424C-9726-8A1582B677CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CC5AF4F-E63F-424C-9726-8A1582B677CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC5AF4F-E63F-424C-9726-8A1582B677CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC5AF4F-E63F-424C-9726-8A1582B677CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC5AF4F-E63F-424C-9726-8A1582B677CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CDCDD2D-93FB-4270-A960-26E0EA23A1A8}
+	EndGlobalSection
+EndGlobal
